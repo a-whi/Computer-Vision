@@ -1,0 +1,7 @@
+Lab 3: Image Segmentation, Superpixels & Region Proposal
+
+This lab explores image segmentation using clustering-based techniques, with a focus on building algorithms from first principles. A k-means clustering algorithm was implemented from scratch to group image pixels based on colour similarity, producing quantised image representations.
+
+The implementation was then extended to incorporate spatial information alongside colour, enabling the generation of superpixels with improved spatial coherence. These superpixels were used to propose regions of interest by computing bounding boxes around segmented regions, demonstrating a foundational approach to region proposal methods used in modern computer vision pipelines.
+
+Key concepts include unsupervised clustering, superpixel segmentation, feature scaling, and region proposal for downstream vision tasks.
